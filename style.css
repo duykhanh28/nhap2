@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #d1d0d0;
+    font-family: sans-serif;
+}
+header {
+    display: block;
+    padding: 10px;
+    background-color: rgb(231, 133, 5);
+}
+.nav-item {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+.navbar-brand{
+    padding: 4px;
+    font-size: 1.5rem;
+}
+.logo{
+    display: block;
+    text-align: center;
+}
+.logo img{
+    width:50px;
+}
+/* main */
+.main-content h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+.product-name{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .col-3 {
+        flex: 0 0 50%; 
+        max-width: 50%;
+    }
+}
+
+.item{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.item img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+/* .col-8{
+    width: 55%;
+    padding: 0 15px;
+    flex: 0 0  auto;
+}
+.col-4{
+    width: 45%;
+    padding: 0 15px;
+    flex: 0 0  auto;
+}
+
+.main-bottom h2{
+    border-bottom: 2px solid #555;
+}
+.main-bottom{
+    padding-top: 50px;
+    background: white;
+    border-radius: 20px;
+} */
+/* CSS cơ bản cho main-bottom */
+.main-bottom {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+  }
+  
+  .main-bottom h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .main-bottom p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .main-bottom .col-12 {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn */
+  @media (max-width: 768px) {
+    .main-bottom h2 {
+      font-size: 1.2rem;
+    }
+  
+    .main-bottom p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .main-bottom h2 {
+      font-size: 1rem;
+    }
+  
+    .main-bottom p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* CSS cho footer */
+  .bottom-footer {
+    background-color: rgb(231, 133, 5);
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+  
+  .bottom-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 576px) {
+    .bottom-footer p {
+      font-size: 0.8rem;
+    }
+  }
